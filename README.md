@@ -42,9 +42,9 @@
   1、执行 git add [file1][file2] ... 添加指定文件到暂存区
      执行 git add [dir]  添加指定目录到暂存区，包括子目录
      执行 git add . 添加当前目录的所有文件到暂存区
-  3、执行 git commit -m [message] 提交暂存区到仓库区,message为提交信息
-  4、执行 git remote add[shortname] [url] 增加一个新的远程仓库，并命名方便后续操作（shortname为别名,url clone or download 中的地址）
-  5、执行 git push -u [url 或 仓库别名] master，上传项目到Github。这里会要求输入Github的账号密码，按要求输入就可以。
+  2、执行 git commit -m [message] 提交暂存区到仓库区,message为提交信息
+  3、执行 git remote add[shortname] [url] 增加一个新的远程仓库，并命名方便后续操作（shortname为别名,url clone or download 中的地址）
+  4、执行 git push -u [url 或 仓库别名] master，上传项目到Github。这里会要求输入Github的账号密码，按要求输入就可以。
   
   
   
