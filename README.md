@@ -44,10 +44,11 @@
      执行 git add . 添加当前目录的所有文件到暂存区;
   2、执行 git commit -m [message] 提交暂存区到仓库区,message为提交信息;
   3、执行 git remote add[shortname] [url] 增加一个新的远程仓库，并命名方便后续操作（shortname为别名,url clone or download 中的地址）;
-  4、执行 git push -u [url 或 仓库别名] [branch]，上传项目到Github。这里会要求输入Github的账号密码，按要求输入就可以;（注意使用了-u 之后会缓存远程地址和branch, 下次则可使用git push 代替 git push [url 或 仓库别名] [branch]）
+  4、执行 git push -u [url 或 仓库别名] [branch]，上传项目到Github。这里会要求输入Github的账号密码，按要求输入就可以;
+    （注意:使用了-u 之后会缓存远程地址和branch, 下次则可使用git push 代替 git push [url 或 仓库别名] [branch]）
   
 八、更新本地仓库
-    git pull[url 或 仓库别名] [branch] 更新远程仓库的变化，并与本地分支合并
+    git pull[url 或 仓库别名] [branch] 更新远程仓库的变化，并与本地分支合并（git pull 在第一次指定了[url 或 仓库别名] [branch]之后就会缓存再次使     用时可直接使用 git pull 代替 git push [url 或 仓库别名] [branch]）
 
 
   
